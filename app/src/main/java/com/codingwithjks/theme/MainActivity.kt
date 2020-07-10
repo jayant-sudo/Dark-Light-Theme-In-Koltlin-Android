@@ -7,12 +7,11 @@ import com.google.android.material.switchmaterial.SwitchMaterial
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var switch:SwitchMaterial
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        switch=findViewById(R.id.Switch)
-       switch.setOnCheckedChangeListener { buttonView, isChecked ->
+       Switch.setOnCheckedChangeListener { buttonView, isChecked ->
            if (isChecked)
            {
                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
