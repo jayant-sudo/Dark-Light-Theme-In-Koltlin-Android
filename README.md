@@ -1,6 +1,6 @@
 # Dark-Light-Theme-In-Koltlin-Android
 
-<p align="center" style="display:'flex'; align-items:'center'; justify-content:'space-around'">
+<p align="center">
 
 <img src="http://www.codingwithjks.tech/Github/white.png" alt="white"/>
 <img src="http://www.codingwithjks.tech/Github/black.png" alt="white"/>
